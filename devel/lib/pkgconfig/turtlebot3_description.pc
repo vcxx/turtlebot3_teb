@@ -1,0 +1,8 @@
+prefix=/home/vincy/vin_ws/devel
+
+Name: turtlebot3_description
+Description: Description of turtlebot3_description
+Version: 1.2.0
+Cflags: 
+Libs: -L/home/vincy/vin_ws/devel/lib 
+Requires: urdf xacro
