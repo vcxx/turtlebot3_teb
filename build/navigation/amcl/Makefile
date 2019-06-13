@@ -226,6 +226,21 @@ _run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast:
 .PHONY : _run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast
 
 # Convenience name for target.
+navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
+
+# Convenience name for target.
+run_tests_amcl_rostest_test_texas_greenroom_loop.xml: navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
+
+.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml
+
+# fast build rule for target.
+run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build
+.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast
+
+# Convenience name for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule:
 	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
@@ -286,64 +301,64 @@ _run_tests_amcl_rostest_test_basic_localization_stage.xml/fast:
 .PHONY : _run_tests_amcl_rostest_test_basic_localization_stage.xml/fast
 
 # Convenience name for target.
-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
+navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule
 
 # Convenience name for target.
-_run_tests_amcl_rostest_test_set_initial_pose.xml: navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
+_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml: navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule
 
-.PHONY : _run_tests_amcl_rostest_test_set_initial_pose.xml
+.PHONY : _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
 
 # fast build rule for target.
-_run_tests_amcl_rostest_test_set_initial_pose.xml/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build
-.PHONY : _run_tests_amcl_rostest_test_set_initial_pose.xml/fast
+_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build
+.PHONY : _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast
 
 # Convenience name for target.
-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
+navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/rule
 
 # Convenience name for target.
-run_tests_amcl_rostest_test_set_initial_pose.xml: navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
+clean_test_results_amcl: navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/rule
 
-.PHONY : run_tests_amcl_rostest_test_set_initial_pose.xml
+.PHONY : clean_test_results_amcl
 
 # fast build rule for target.
-run_tests_amcl_rostest_test_set_initial_pose.xml/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build
-.PHONY : run_tests_amcl_rostest_test_set_initial_pose.xml/fast
+clean_test_results_amcl/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/build.make navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/build
+.PHONY : clean_test_results_amcl/fast
 
 # Convenience name for target.
-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/rule
+navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-_run_tests_amcl_rostest: navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/rule
+dynamic_reconfigure_generate_messages_eus: navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
-.PHONY : _run_tests_amcl_rostest
+.PHONY : dynamic_reconfigure_generate_messages_eus
 
 # fast build rule for target.
-_run_tests_amcl_rostest/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/build
-.PHONY : _run_tests_amcl_rostest/fast
+dynamic_reconfigure_generate_messages_eus/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
-navigation/amcl/CMakeFiles/_run_tests_amcl.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl.dir/rule
+navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-_run_tests_amcl: navigation/amcl/CMakeFiles/_run_tests_amcl.dir/rule
+sensor_msgs_generate_messages_py: navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
-.PHONY : _run_tests_amcl
+.PHONY : sensor_msgs_generate_messages_py
 
 # fast build rule for target.
-_run_tests_amcl/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl.dir/build
-.PHONY : _run_tests_amcl/fast
+sensor_msgs_generate_messages_py/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule:
@@ -391,49 +406,34 @@ sensor_msgs_generate_messages_nodejs/fast:
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
+navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/rule
 
 # Convenience name for target.
-run_tests_amcl_rostest: navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
+run_tests_amcl_rostest_test_basic_localization_stage.xml: navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/rule
 
-.PHONY : run_tests_amcl_rostest
+.PHONY : run_tests_amcl_rostest_test_basic_localization_stage.xml
 
 # fast build rule for target.
-run_tests_amcl_rostest/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/build
-.PHONY : run_tests_amcl_rostest/fast
+run_tests_amcl_rostest_test_basic_localization_stage.xml/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build
+.PHONY : run_tests_amcl_rostest_test_basic_localization_stage.xml/fast
 
 # Convenience name for target.
-navigation/amcl/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-actionlib_generate_messages_eus: navigation/amcl/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+sensor_msgs_generate_messages_eus: navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
-.PHONY : actionlib_generate_messages_eus
+.PHONY : sensor_msgs_generate_messages_eus
 
 # fast build rule for target.
-actionlib_generate_messages_eus/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/actionlib_generate_messages_eus.dir/build.make navigation/amcl/CMakeFiles/actionlib_generate_messages_eus.dir/build
-.PHONY : actionlib_generate_messages_eus/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_py: navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_py
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_py/fast
+sensor_msgs_generate_messages_eus/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 navigation/amcl/CMakeFiles/tf_generate_messages_py.dir/rule:
@@ -509,6 +509,36 @@ sensor_msgs_generate_messages_cpp: navigation/amcl/CMakeFiles/sensor_msgs_genera
 sensor_msgs_generate_messages_cpp/fast:
 	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_py: navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_py/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_py/fast
+
+# Convenience name for target.
+navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
+
+# Convenience name for target.
+run_tests_amcl_rostest_test_set_initial_pose.xml: navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
+
+.PHONY : run_tests_amcl_rostest_test_set_initial_pose.xml
+
+# fast build rule for target.
+run_tests_amcl_rostest_test_set_initial_pose.xml/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build
+.PHONY : run_tests_amcl_rostest_test_set_initial_pose.xml/fast
 
 # Convenience name for target.
 navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule:
@@ -721,6 +751,21 @@ tf_generate_messages_nodejs/fast:
 .PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
+navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/rule
+
+# Convenience name for target.
+_run_tests_amcl_rostest: navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/rule
+
+.PHONY : _run_tests_amcl_rostest
+
+# fast build rule for target.
+_run_tests_amcl_rostest/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/build
+.PHONY : _run_tests_amcl_rostest/fast
+
+# Convenience name for target.
 navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule:
 	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule
 .PHONY : navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule
@@ -796,199 +841,19 @@ amcl_pf/fast:
 .PHONY : amcl_pf/fast
 
 # Convenience name for target.
-navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_py: navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+_run_tests_amcl_rostest_test_set_initial_pose.xml: navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
 
-.PHONY : sensor_msgs_generate_messages_py
+.PHONY : _run_tests_amcl_rostest_test_set_initial_pose.xml
 
 # fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_cpp: navigation/amcl/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-
-.PHONY : actionlib_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_generate_messages_cpp/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make navigation/amcl/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-.PHONY : actionlib_generate_messages_cpp/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
-
-# Convenience name for target.
-run_tests_amcl_rostest_test_texas_greenroom_loop.xml: navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
-
-.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml
-
-# fast build rule for target.
-run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build
-.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_lisp: navigation/amcl/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-.PHONY : actionlib_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_generate_messages_lisp/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make navigation/amcl/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-.PHONY : actionlib_generate_messages_lisp/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
-
-# Convenience name for target.
-amcl_small_loop_prf_indexed.bag: navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
-
-.PHONY : amcl_small_loop_prf_indexed.bag
-
-# fast build rule for target.
-amcl_small_loop_prf_indexed.bag/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build.make navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build
-.PHONY : amcl_small_loop_prf_indexed.bag/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/rule
-
-# Convenience name for target.
-run_tests_amcl_rostest_test_basic_localization_stage.xml: navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/rule
-
-.PHONY : run_tests_amcl_rostest_test_basic_localization_stage.xml
-
-# fast build rule for target.
-run_tests_amcl_rostest_test_basic_localization_stage.xml/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build
-.PHONY : run_tests_amcl_rostest_test_basic_localization_stage.xml/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make navigation/amcl/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_nodejs: navigation/amcl/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make navigation/amcl/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/actionlib_generate_messages_py.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/actionlib_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_py: navigation/amcl/CMakeFiles/actionlib_generate_messages_py.dir/rule
-
-.PHONY : actionlib_generate_messages_py
-
-# fast build rule for target.
-actionlib_generate_messages_py/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/actionlib_generate_messages_py.dir/build.make navigation/amcl/CMakeFiles/actionlib_generate_messages_py.dir/build
-.PHONY : actionlib_generate_messages_py/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/rule
-
-# Convenience name for target.
-amcl_basic_localization_stage_indexed.bag: navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/rule
-
-.PHONY : amcl_basic_localization_stage_indexed.bag
-
-# fast build rule for target.
-amcl_basic_localization_stage_indexed.bag/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/build.make navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/build
-.PHONY : amcl_basic_localization_stage_indexed.bag/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule
-
-# Convenience name for target.
-_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml: navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule
-
-.PHONY : _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
-
-# fast build rule for target.
-_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build
-.PHONY : _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/rule
-
-# Convenience name for target.
-clean_test_results_amcl: navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/rule
-
-.PHONY : clean_test_results_amcl
-
-# fast build rule for target.
-clean_test_results_amcl/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/build.make navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/build
-.PHONY : clean_test_results_amcl/fast
-
-# Convenience name for target.
-navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-.PHONY : navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_eus: navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_eus
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_eus/fast
+_run_tests_amcl_rostest_test_set_initial_pose.xml/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build
+.PHONY : _run_tests_amcl_rostest_test_set_initial_pose.xml/fast
 
 # Convenience name for target.
 navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
@@ -1096,6 +961,36 @@ amcl/fast:
 .PHONY : amcl/fast
 
 # Convenience name for target.
+navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/rule
+
+# Convenience name for target.
+amcl_basic_localization_stage_indexed.bag: navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/rule
+
+.PHONY : amcl_basic_localization_stage_indexed.bag
+
+# fast build rule for target.
+amcl_basic_localization_stage_indexed.bag/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/build.make navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/build
+.PHONY : amcl_basic_localization_stage_indexed.bag/fast
+
+# Convenience name for target.
+navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
+
+# Convenience name for target.
+amcl_small_loop_prf_indexed.bag: navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
+
+.PHONY : amcl_small_loop_prf_indexed.bag
+
+# fast build rule for target.
+amcl_small_loop_prf_indexed.bag/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build.make navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build
+.PHONY : amcl_small_loop_prf_indexed.bag/fast
+
+# Convenience name for target.
 navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule:
 	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule
 .PHONY : navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule
@@ -1154,6 +1049,36 @@ run_tests_amcl: navigation/amcl/CMakeFiles/run_tests_amcl.dir/rule
 run_tests_amcl/fast:
 	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl.dir/build
 .PHONY : run_tests_amcl/fast
+
+# Convenience name for target.
+navigation/amcl/CMakeFiles/_run_tests_amcl.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl.dir/rule
+
+# Convenience name for target.
+_run_tests_amcl: navigation/amcl/CMakeFiles/_run_tests_amcl.dir/rule
+
+.PHONY : _run_tests_amcl
+
+# fast build rule for target.
+_run_tests_amcl/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl.dir/build
+.PHONY : _run_tests_amcl/fast
+
+# Convenience name for target.
+navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
+.PHONY : navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
+
+# Convenience name for target.
+run_tests_amcl_rostest: navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
+
+.PHONY : run_tests_amcl_rostest
+
+# fast build rule for target.
+run_tests_amcl_rostest/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/build
+.PHONY : run_tests_amcl_rostest/fast
 
 src/amcl/map/map.o: src/amcl/map/map.c.o
 
@@ -1574,27 +1499,29 @@ help:
 	@echo "... _run_tests_amcl_rostest_test_rosie_multilaser.xml"
 	@echo "... run_tests_amcl_rostest_test_rosie_multilaser.xml"
 	@echo "... _run_tests_amcl_rostest_test_texas_greenroom_loop.xml"
+	@echo "... run_tests_amcl_rostest_test_texas_greenroom_loop.xml"
 	@echo "... _run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml"
 	@echo "... _run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml"
 	@echo "... run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml"
 	@echo "... _run_tests_amcl_rostest_test_basic_localization_stage.xml"
-	@echo "... _run_tests_amcl_rostest_test_set_initial_pose.xml"
-	@echo "... run_tests_amcl_rostest_test_set_initial_pose.xml"
-	@echo "... _run_tests_amcl_rostest"
-	@echo "... _run_tests_amcl"
+	@echo "... _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml"
+	@echo "... clean_test_results_amcl"
+	@echo "... dynamic_reconfigure_generate_messages_eus"
+	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... list_install_components"
 	@echo "... _run_tests_amcl_rostest_test_small_loop_prf.xml"
 	@echo "... amcl_texas_willow_hallway_loop_indexed.bag"
 	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... run_tests_amcl_rostest"
-	@echo "... actionlib_generate_messages_eus"
-	@echo "... dynamic_reconfigure_generate_messages_py"
+	@echo "... run_tests_amcl_rostest_test_basic_localization_stage.xml"
+	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... tf_generate_messages_py"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... rebuild_cache"
 	@echo "... tf_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_generate_messages_py"
+	@echo "... run_tests_amcl_rostest_test_set_initial_pose.xml"
 	@echo "... run_tests_amcl_rostest_test_small_loop_prf.xml"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
@@ -1609,24 +1536,13 @@ help:
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... amcl_willow-full.pgm"
 	@echo "... tf_generate_messages_nodejs"
+	@echo "... _run_tests_amcl_rostest"
 	@echo "... run_tests_amcl_rostest_test_set_initial_pose_delayed.xml"
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... topic_tools_generate_messages_eus"
 	@echo "... amcl_pf"
-	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... actionlib_generate_messages_cpp"
-	@echo "... run_tests_amcl_rostest_test_texas_greenroom_loop.xml"
-	@echo "... actionlib_generate_messages_lisp"
-	@echo "... amcl_small_loop_prf_indexed.bag"
-	@echo "... run_tests_amcl_rostest_test_basic_localization_stage.xml"
-	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... actionlib_generate_messages_nodejs"
-	@echo "... actionlib_generate_messages_py"
-	@echo "... amcl_basic_localization_stage_indexed.bag"
-	@echo "... _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml"
-	@echo "... clean_test_results_amcl"
-	@echo "... dynamic_reconfigure_generate_messages_eus"
+	@echo "... _run_tests_amcl_rostest_test_set_initial_pose.xml"
 	@echo "... dynamic_reconfigure_generate_messages_nodejs"
 	@echo "... amcl_small_loop_crazy_driving_prg_indexed.bag"
 	@echo "... std_srvs_generate_messages_cpp"
@@ -1634,11 +1550,15 @@ help:
 	@echo "... topic_tools_generate_messages_lisp"
 	@echo "... amcl_map"
 	@echo "... amcl"
+	@echo "... amcl_basic_localization_stage_indexed.bag"
+	@echo "... amcl_small_loop_prf_indexed.bag"
 	@echo "... install"
 	@echo "... amcl_texas_greenroom_loop_indexed.bag"
 	@echo "... amcl_rosie_localization_stage.bag"
 	@echo "... amcl_willow-full-0.05.pgm"
 	@echo "... run_tests_amcl"
+	@echo "... _run_tests_amcl"
+	@echo "... run_tests_amcl_rostest"
 	@echo "... src/amcl/map/map.o"
 	@echo "... src/amcl/map/map.i"
 	@echo "... src/amcl/map/map.s"

@@ -6,11 +6,13 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
 subdirs(navigation/navigation)
+subdirs(teb_local_planner_tutorials)
 subdirs(turtlebot3/turtlebot3)
 subdirs(turtlebot3_msgs)
 subdirs(turtlebot3/turtlebot3_navigation)
 subdirs(turtlebot3_simulations/turtlebot3_simulations)
 subdirs(navigation/map_server)
+subdirs(indicate_tag)
 subdirs(navigation/amcl)
 subdirs(navigation/robot_pose_ekf)
 subdirs(navigation/fake_localization)

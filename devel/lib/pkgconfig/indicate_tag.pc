@@ -1,0 +1,8 @@
+prefix=/home/vincy/vin_ws/devel
+
+Name: indicate_tag
+Description: Description of indicate_tag
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vincy/vin_ws/devel/lib 
+Requires: 
