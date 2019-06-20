@@ -200,4 +200,7 @@ include_directories(
 
 
 add_executable(send_goal src/send_goal.cpp)
+add_executable(odom_path src/odom_path.cpp)
+
 target_link_libraries(send_goal ${catkin_LIBRARIES})
+target_link_libraries(odom_path ${catkin_LIBRARIES})
