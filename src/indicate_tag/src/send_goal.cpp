@@ -21,11 +21,12 @@ void Path_Callback(const geometry_msgs::Point& goal)
 
 
  
-  //we'll send a goal to the robot to move 1 meter forward
+  //we'll send a goal to the robot to move 
   GOAL_.target_pose.header.frame_id = "base_link";
   GOAL_.target_pose.header.stamp = ros::Time::now();
  
   GOAL_.target_pose.pose.position.x = goal.x;
+  GOAL_.target_pose.pose.position.y = goal.y;
   GOAL_.target_pose.pose.orientation.w = 1.0;
 
   //tell the action client that we want to spin a thread by default
@@ -44,7 +45,7 @@ void Path_Callback(const geometry_msgs::Point& goal)
   if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
     ROS_INFO("Yeah!! the base moved ");
   else
-    ROS_INFO("The base failed to move forward 1 meter for some reason");
+    ROS_INFO("The base failed to move for some reason");
 
 
 
