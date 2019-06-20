@@ -1,0 +1,5 @@
+
+#add all files or folders that you want to be ignored
+
+/.vscode/*
+/.gitignore/*
