@@ -1141,6 +1141,19 @@ _run_tests_map_server_rostest_test_rtest.xml/fast:
 .PHONY : _run_tests_map_server_rostest_test_rtest.xml/fast
 
 #=============================================================================
+# Target rules for targets named odom_path
+
+# Build rule for target.
+odom_path: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 odom_path
+.PHONY : odom_path
+
+# fast build rule for target.
+odom_path/fast:
+	$(MAKE) -f indicate_tag/CMakeFiles/odom_path.dir/build.make indicate_tag/CMakeFiles/odom_path.dir/build
+.PHONY : odom_path/fast
+
+#=============================================================================
 # Target rules for targets named send_goal
 
 # Build rule for target.
@@ -5323,6 +5336,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... _run_tests_map_server_gtest_map_server_utest"
 	@echo "... _run_tests_map_server_rostest_test_rtest.xml"
+	@echo "... odom_path"
 	@echo "... send_goal"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_nodejs"

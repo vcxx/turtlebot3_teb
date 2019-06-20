@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vincy/vin_ws/build
 include navigation/robot_pose_ekf/CMakeFiles/download_data_zero_covariance.bag.dir/progress.make
 
 navigation/robot_pose_ekf/CMakeFiles/download_data_zero_covariance.bag:
-	cd /home/vincy/vin_ws/build/navigation/robot_pose_ekf && /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/robot_pose_ekf/zero_covariance_indexed.bag /home/vincy/vin_ws/devel/share/robot_pose_ekf/test/zero_covariance_indexed.bag 1f1f4e361a9e0b0f6b1379b2dd011088 --ignore-error
+	cd /home/vincy/vin_ws/build/navigation/robot_pose_ekf && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/robot_pose_ekf/zero_covariance_indexed.bag /home/vincy/vin_ws/devel/share/robot_pose_ekf/test/zero_covariance_indexed.bag 1f1f4e361a9e0b0f6b1379b2dd011088 --ignore-error
 
 download_data_zero_covariance.bag: navigation/robot_pose_ekf/CMakeFiles/download_data_zero_covariance.bag
 download_data_zero_covariance.bag: navigation/robot_pose_ekf/CMakeFiles/download_data_zero_covariance.bag.dir/build.make

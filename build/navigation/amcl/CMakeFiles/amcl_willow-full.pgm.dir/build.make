@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vincy/vin_ws/build
 include navigation/amcl/CMakeFiles/amcl_willow-full.pgm.dir/progress.make
 
 navigation/amcl/CMakeFiles/amcl_willow-full.pgm:
-	cd /home/vincy/vin_ws/build/navigation/amcl && /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/amcl/willow-full.pgm /home/vincy/vin_ws/devel/share/amcl/test/willow-full.pgm b84465cdbbfe3e2fb9eb4579e0bcaf0e --ignore-error
+	cd /home/vincy/vin_ws/build/navigation/amcl && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/amcl/willow-full.pgm /home/vincy/vin_ws/devel/share/amcl/test/willow-full.pgm b84465cdbbfe3e2fb9eb4579e0bcaf0e --ignore-error
 
 amcl_willow-full.pgm: navigation/amcl/CMakeFiles/amcl_willow-full.pgm
 amcl_willow-full.pgm: navigation/amcl/CMakeFiles/amcl_willow-full.pgm.dir/build.make

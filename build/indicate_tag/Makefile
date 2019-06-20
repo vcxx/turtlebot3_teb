@@ -79,17 +79,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -110,6 +99,17 @@ install/strip: preinstall
 install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -164,6 +164,21 @@ preinstall/fast:
 depend:
 	cd /home/vincy/vin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+indicate_tag/CMakeFiles/odom_path.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 indicate_tag/CMakeFiles/odom_path.dir/rule
+.PHONY : indicate_tag/CMakeFiles/odom_path.dir/rule
+
+# Convenience name for target.
+odom_path: indicate_tag/CMakeFiles/odom_path.dir/rule
+
+.PHONY : odom_path
+
+# fast build rule for target.
+odom_path/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f indicate_tag/CMakeFiles/odom_path.dir/build.make indicate_tag/CMakeFiles/odom_path.dir/build
+.PHONY : odom_path/fast
 
 # Convenience name for target.
 indicate_tag/CMakeFiles/send_goal.dir/rule:
@@ -330,6 +345,33 @@ move_base_msgs_generate_messages_eus/fast:
 	cd /home/vincy/vin_ws/build && $(MAKE) -f indicate_tag/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make indicate_tag/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
 .PHONY : move_base_msgs_generate_messages_eus/fast
 
+src/odom_path.o: src/odom_path.cpp.o
+
+.PHONY : src/odom_path.o
+
+# target to build an object file
+src/odom_path.cpp.o:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f indicate_tag/CMakeFiles/odom_path.dir/build.make indicate_tag/CMakeFiles/odom_path.dir/src/odom_path.cpp.o
+.PHONY : src/odom_path.cpp.o
+
+src/odom_path.i: src/odom_path.cpp.i
+
+.PHONY : src/odom_path.i
+
+# target to preprocess a source file
+src/odom_path.cpp.i:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f indicate_tag/CMakeFiles/odom_path.dir/build.make indicate_tag/CMakeFiles/odom_path.dir/src/odom_path.cpp.i
+.PHONY : src/odom_path.cpp.i
+
+src/odom_path.s: src/odom_path.cpp.s
+
+.PHONY : src/odom_path.s
+
+# target to generate assembly for a file
+src/odom_path.cpp.s:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f indicate_tag/CMakeFiles/odom_path.dir/build.make indicate_tag/CMakeFiles/odom_path.dir/src/odom_path.cpp.s
+.PHONY : src/odom_path.cpp.s
+
 src/send_goal.o: src/send_goal.cpp.o
 
 .PHONY : src/send_goal.o
@@ -365,9 +407,10 @@ help:
 	@echo "... depend"
 	@echo "... install"
 	@echo "... rebuild_cache"
-	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... odom_path"
 	@echo "... send_goal"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_nodejs"
@@ -381,6 +424,9 @@ help:
 	@echo "... move_base_msgs_generate_messages_cpp"
 	@echo "... test"
 	@echo "... move_base_msgs_generate_messages_eus"
+	@echo "... src/odom_path.o"
+	@echo "... src/odom_path.i"
+	@echo "... src/odom_path.s"
 	@echo "... src/send_goal.o"
 	@echo "... src/send_goal.i"
 	@echo "... src/send_goal.s"

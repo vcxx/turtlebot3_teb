@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vincy/vin_ws/build
 include navigation/costmap_2d/CMakeFiles/costmap_2d_simple_driving_test_indexed.bag.dir/progress.make
 
 navigation/costmap_2d/CMakeFiles/costmap_2d_simple_driving_test_indexed.bag:
-	cd /home/vincy/vin_ws/build/navigation/costmap_2d && /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/costmap_2d/simple_driving_test_indexed.bag /home/vincy/vin_ws/devel/share/costmap_2d/test/simple_driving_test_indexed.bag 61168cff9425b11e093ea3a627c81c8d --ignore-error
+	cd /home/vincy/vin_ws/build/navigation/costmap_2d && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/costmap_2d/simple_driving_test_indexed.bag /home/vincy/vin_ws/devel/share/costmap_2d/test/simple_driving_test_indexed.bag 61168cff9425b11e093ea3a627c81c8d --ignore-error
 
 costmap_2d_simple_driving_test_indexed.bag: navigation/costmap_2d/CMakeFiles/costmap_2d_simple_driving_test_indexed.bag
 costmap_2d_simple_driving_test_indexed.bag: navigation/costmap_2d/CMakeFiles/costmap_2d_simple_driving_test_indexed.bag.dir/build.make

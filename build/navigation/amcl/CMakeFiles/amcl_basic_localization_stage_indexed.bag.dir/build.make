@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vincy/vin_ws/build
 include navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/progress.make
 
 navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag:
-	cd /home/vincy/vin_ws/build/navigation/amcl && /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/amcl/basic_localization_stage_indexed.bag /home/vincy/vin_ws/devel/share/amcl/test/basic_localization_stage_indexed.bag 41fe43af189ec71e5e48eb9ed661a655 --ignore-error
+	cd /home/vincy/vin_ws/build/navigation/amcl && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/amcl/basic_localization_stage_indexed.bag /home/vincy/vin_ws/devel/share/amcl/test/basic_localization_stage_indexed.bag 41fe43af189ec71e5e48eb9ed661a655 --ignore-error
 
 amcl_basic_localization_stage_indexed.bag: navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag
 amcl_basic_localization_stage_indexed.bag: navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/build.make

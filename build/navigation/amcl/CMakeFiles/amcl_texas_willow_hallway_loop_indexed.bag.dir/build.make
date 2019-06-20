@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vincy/vin_ws/build
 include navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/progress.make
 
 navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag:
-	cd /home/vincy/vin_ws/build/navigation/amcl && /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/amcl/texas_willow_hallway_loop_indexed.bag /home/vincy/vin_ws/devel/share/amcl/test/texas_willow_hallway_loop_indexed.bag 27deb742fdcd3af44cf446f39f2688a8 --ignore-error
+	cd /home/vincy/vin_ws/build/navigation/amcl && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/amcl/texas_willow_hallway_loop_indexed.bag /home/vincy/vin_ws/devel/share/amcl/test/texas_willow_hallway_loop_indexed.bag 27deb742fdcd3af44cf446f39f2688a8 --ignore-error
 
 amcl_texas_willow_hallway_loop_indexed.bag: navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag
 amcl_texas_willow_hallway_loop_indexed.bag: navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/build.make

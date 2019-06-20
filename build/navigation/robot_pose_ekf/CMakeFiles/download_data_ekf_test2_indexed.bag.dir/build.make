@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vincy/vin_ws/build
 include navigation/robot_pose_ekf/CMakeFiles/download_data_ekf_test2_indexed.bag.dir/progress.make
 
 navigation/robot_pose_ekf/CMakeFiles/download_data_ekf_test2_indexed.bag:
-	cd /home/vincy/vin_ws/build/navigation/robot_pose_ekf && /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/robot_pose_ekf/ekf_test2_indexed.bag /home/vincy/vin_ws/devel/share/robot_pose_ekf/test/ekf_test2_indexed.bag 71addef0ed900e05b301e0b4fdca99e2 --ignore-error
+	cd /home/vincy/vin_ws/build/navigation/robot_pose_ekf && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/robot_pose_ekf/ekf_test2_indexed.bag /home/vincy/vin_ws/devel/share/robot_pose_ekf/test/ekf_test2_indexed.bag 71addef0ed900e05b301e0b4fdca99e2 --ignore-error
 
 download_data_ekf_test2_indexed.bag: navigation/robot_pose_ekf/CMakeFiles/download_data_ekf_test2_indexed.bag
 download_data_ekf_test2_indexed.bag: navigation/robot_pose_ekf/CMakeFiles/download_data_ekf_test2_indexed.bag.dir/build.make

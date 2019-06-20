@@ -145,9 +145,10 @@
 /home/vincy/vin_ws/build/navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir
 /home/vincy/vin_ws/build/indicate_tag/CMakeFiles/install.dir
 /home/vincy/vin_ws/build/indicate_tag/CMakeFiles/rebuild_cache.dir
-/home/vincy/vin_ws/build/indicate_tag/CMakeFiles/install/local.dir
 /home/vincy/vin_ws/build/indicate_tag/CMakeFiles/list_install_components.dir
 /home/vincy/vin_ws/build/indicate_tag/CMakeFiles/install/strip.dir
+/home/vincy/vin_ws/build/indicate_tag/CMakeFiles/install/local.dir
+/home/vincy/vin_ws/build/indicate_tag/CMakeFiles/odom_path.dir
 /home/vincy/vin_ws/build/indicate_tag/CMakeFiles/send_goal.dir
 /home/vincy/vin_ws/build/indicate_tag/CMakeFiles/actionlib_generate_messages_cpp.dir
 /home/vincy/vin_ws/build/indicate_tag/CMakeFiles/actionlib_generate_messages_nodejs.dir

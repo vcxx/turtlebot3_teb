@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vincy/vin_ws/build
 include navigation/amcl/CMakeFiles/amcl_rosie_localization_stage.bag.dir/progress.make
 
 navigation/amcl/CMakeFiles/amcl_rosie_localization_stage.bag:
-	cd /home/vincy/vin_ws/build/navigation/amcl && /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/amcl/rosie_localization_stage.bag /home/vincy/vin_ws/devel/share/amcl/test/rosie_localization_stage.bag 3347bf3835724cfa45e958c5c1846066 --ignore-error
+	cd /home/vincy/vin_ws/build/navigation/amcl && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/amcl/rosie_localization_stage.bag /home/vincy/vin_ws/devel/share/amcl/test/rosie_localization_stage.bag 3347bf3835724cfa45e958c5c1846066 --ignore-error
 
 amcl_rosie_localization_stage.bag: navigation/amcl/CMakeFiles/amcl_rosie_localization_stage.bag
 amcl_rosie_localization_stage.bag: navigation/amcl/CMakeFiles/amcl_rosie_localization_stage.bag.dir/build.make
