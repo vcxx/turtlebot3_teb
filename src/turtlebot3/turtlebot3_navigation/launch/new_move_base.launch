@@ -24,7 +24,8 @@
 
    </node> 
 
-
+  <!-- odom_path -->
+   <node pkg="indicate_tag" type="odom_path" name="odom_path" output="screen"/> 
 
 
 </launch>
