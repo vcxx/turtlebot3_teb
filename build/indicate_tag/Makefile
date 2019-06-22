@@ -68,17 +68,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -99,6 +88,17 @@ install/strip: preinstall
 install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -164,6 +164,21 @@ preinstall/fast:
 depend:
 	cd /home/vincy/vin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+indicate_tag/CMakeFiles/send_goal_loop.dir/rule:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 indicate_tag/CMakeFiles/send_goal_loop.dir/rule
+.PHONY : indicate_tag/CMakeFiles/send_goal_loop.dir/rule
+
+# Convenience name for target.
+send_goal_loop: indicate_tag/CMakeFiles/send_goal_loop.dir/rule
+
+.PHONY : send_goal_loop
+
+# fast build rule for target.
+send_goal_loop/fast:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f indicate_tag/CMakeFiles/send_goal_loop.dir/build.make indicate_tag/CMakeFiles/send_goal_loop.dir/build
+.PHONY : send_goal_loop/fast
 
 # Convenience name for target.
 indicate_tag/CMakeFiles/odom_path.dir/rule:
@@ -399,6 +414,33 @@ src/send_goal.cpp.s:
 	cd /home/vincy/vin_ws/build && $(MAKE) -f indicate_tag/CMakeFiles/send_goal.dir/build.make indicate_tag/CMakeFiles/send_goal.dir/src/send_goal.cpp.s
 .PHONY : src/send_goal.cpp.s
 
+src/send_goal_loop.o: src/send_goal_loop.cpp.o
+
+.PHONY : src/send_goal_loop.o
+
+# target to build an object file
+src/send_goal_loop.cpp.o:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f indicate_tag/CMakeFiles/send_goal_loop.dir/build.make indicate_tag/CMakeFiles/send_goal_loop.dir/src/send_goal_loop.cpp.o
+.PHONY : src/send_goal_loop.cpp.o
+
+src/send_goal_loop.i: src/send_goal_loop.cpp.i
+
+.PHONY : src/send_goal_loop.i
+
+# target to preprocess a source file
+src/send_goal_loop.cpp.i:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f indicate_tag/CMakeFiles/send_goal_loop.dir/build.make indicate_tag/CMakeFiles/send_goal_loop.dir/src/send_goal_loop.cpp.i
+.PHONY : src/send_goal_loop.cpp.i
+
+src/send_goal_loop.s: src/send_goal_loop.cpp.s
+
+.PHONY : src/send_goal_loop.s
+
+# target to generate assembly for a file
+src/send_goal_loop.cpp.s:
+	cd /home/vincy/vin_ws/build && $(MAKE) -f indicate_tag/CMakeFiles/send_goal_loop.dir/build.make indicate_tag/CMakeFiles/send_goal_loop.dir/src/send_goal_loop.cpp.s
+.PHONY : src/send_goal_loop.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -406,9 +448,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install"
-	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... install/strip"
+	@echo "... rebuild_cache"
+	@echo "... send_goal_loop"
 	@echo "... install/local"
 	@echo "... odom_path"
 	@echo "... send_goal"
@@ -430,6 +473,9 @@ help:
 	@echo "... src/send_goal.o"
 	@echo "... src/send_goal.i"
 	@echo "... src/send_goal.s"
+	@echo "... src/send_goal_loop.o"
+	@echo "... src/send_goal_loop.i"
+	@echo "... src/send_goal_loop.s"
 .PHONY : help
 
 

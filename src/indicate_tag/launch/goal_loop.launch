@@ -1,0 +1,7 @@
+<launch>
+	
+  	<!--- send_goal_loop -->
+   	<node pkg="indicate_tag" type="send_goal_loop" name="send_goal_loop" output="screen" />
+
+</launch>
+
