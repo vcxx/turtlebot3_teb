@@ -1141,6 +1141,19 @@ _run_tests_map_server_rostest_test_rtest.xml/fast:
 .PHONY : _run_tests_map_server_rostest_test_rtest.xml/fast
 
 #=============================================================================
+# Target rules for targets named send_goal_loop
+
+# Build rule for target.
+send_goal_loop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 send_goal_loop
+.PHONY : send_goal_loop
+
+# fast build rule for target.
+send_goal_loop/fast:
+	$(MAKE) -f indicate_tag/CMakeFiles/send_goal_loop.dir/build.make indicate_tag/CMakeFiles/send_goal_loop.dir/build
+.PHONY : send_goal_loop/fast
+
+#=============================================================================
 # Target rules for targets named odom_path
 
 # Build rule for target.
@@ -5336,6 +5349,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... _run_tests_map_server_gtest_map_server_utest"
 	@echo "... _run_tests_map_server_rostest_test_rtest.xml"
+	@echo "... send_goal_loop"
 	@echo "... odom_path"
 	@echo "... send_goal"
 	@echo "... actionlib_generate_messages_cpp"

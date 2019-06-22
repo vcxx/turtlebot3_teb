@@ -110,7 +110,7 @@ CMakeFiles/run_tests.dir/all: navigation/navfn/test/CMakeFiles/_run_tests_navfn.
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
@@ -211,7 +211,7 @@ CMakeFiles/tests.dir/all: navigation/navfn/test/CMakeFiles/path_calc_test.dir/al
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
@@ -290,7 +290,7 @@ gtest/preinstall: gtest/gtest/preinstall
 gtest/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=39 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=38 "Built target gmock"
 .PHONY : gtest/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -322,12 +322,12 @@ clean: gtest/CMakeFiles/gmock.dir/clean
 gtest/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=40 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=39,40 "Built target gmock_main"
 .PHONY : gtest/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gmock_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gmock_main.dir/rule
@@ -373,12 +373,12 @@ gtest/gtest/preinstall:
 gtest/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=41 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target gtest"
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/gtest/CMakeFiles/gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/rule
@@ -405,7 +405,7 @@ clean: gtest/gtest/CMakeFiles/gtest.dir/clean
 gtest/gtest/CMakeFiles/gtest_main.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=41 "Built target gtest_main"
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1330,7 +1330,7 @@ navigation/map_server/CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir/rule
@@ -1394,7 +1394,7 @@ navigation/map_server/CMakeFiles/_run_tests_map_server_rostest.dir/all: navigati
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/_run_tests_map_server_rostest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/_run_tests_map_server_rostest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_rostest.dir/rule
@@ -1491,7 +1491,7 @@ navigation/map_server/CMakeFiles/run_tests_map_server.dir/all: navigation/map_se
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/run_tests_map_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/run_tests_map_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/run_tests_map_server.dir/rule
@@ -2007,7 +2007,7 @@ navigation/map_server/CMakeFiles/map_server_image_loader.dir/all: navigation/map
 navigation/map_server/CMakeFiles/map_server_image_loader.dir/all: navigation/map_server/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server_image_loader.dir/build.make navigation/map_server/CMakeFiles/map_server_image_loader.dir/depend
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server_image_loader.dir/build.make navigation/map_server/CMakeFiles/map_server_image_loader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=47 "Built target map_server_image_loader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target map_server_image_loader"
 .PHONY : navigation/map_server/CMakeFiles/map_server_image_loader.dir/all
 
 # Include target in all.
@@ -2017,7 +2017,7 @@ all: navigation/map_server/CMakeFiles/map_server_image_loader.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/map_server_image_loader.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule
@@ -2303,7 +2303,7 @@ navigation/map_server/CMakeFiles/rtest.dir/all: navigation/map_server/CMakeFiles
 navigation/map_server/CMakeFiles/rtest.dir/all: navigation/map_server/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f navigation/map_server/CMakeFiles/rtest.dir/build.make navigation/map_server/CMakeFiles/rtest.dir/depend
 	$(MAKE) -f navigation/map_server/CMakeFiles/rtest.dir/build.make navigation/map_server/CMakeFiles/rtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=65 "Built target rtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=64 "Built target rtest"
 .PHONY : navigation/map_server/CMakeFiles/rtest.dir/all
 
 # Include target in all.
@@ -2313,7 +2313,7 @@ all: navigation/map_server/CMakeFiles/rtest.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/rtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/rtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/rtest.dir/rule
@@ -2599,7 +2599,7 @@ navigation/map_server/CMakeFiles/map_server.dir/all: navigation/map_server/CMake
 navigation/map_server/CMakeFiles/map_server.dir/all: navigation/map_server/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server.dir/build.make navigation/map_server/CMakeFiles/map_server.dir/depend
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server.dir/build.make navigation/map_server/CMakeFiles/map_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target map_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=45 "Built target map_server"
 .PHONY : navigation/map_server/CMakeFiles/map_server.dir/all
 
 # Include target in all.
@@ -2637,12 +2637,12 @@ navigation/map_server/CMakeFiles/map_server_utest.dir/all: gtest/gtest/CMakeFile
 navigation/map_server/CMakeFiles/map_server_utest.dir/all: navigation/map_server/CMakeFiles/map_server_image_loader.dir/all
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server_utest.dir/build.make navigation/map_server/CMakeFiles/map_server_utest.dir/depend
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server_utest.dir/build.make navigation/map_server/CMakeFiles/map_server_utest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=48 "Built target map_server_utest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=47 "Built target map_server_utest"
 .PHONY : navigation/map_server/CMakeFiles/map_server_utest.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/map_server_utest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/map_server_utest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/map_server_utest.dir/rule
@@ -2707,7 +2707,7 @@ navigation/map_server/CMakeFiles/_run_tests_map_server.dir/all: navigation/map_s
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/_run_tests_map_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/_run_tests_map_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server.dir/rule
@@ -2771,7 +2771,7 @@ navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/all: navigation/
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/rule
@@ -2803,7 +2803,7 @@ navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/all: navigation
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/rule
@@ -2869,7 +2869,7 @@ navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.di
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/rule
@@ -2902,7 +2902,7 @@ navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.di
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/rule
@@ -2926,12 +2926,14 @@ clean: navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest
 # Directory level rules for directory indicate_tag
 
 # Convenience name for "all" pass in the directory.
+indicate_tag/all: indicate_tag/CMakeFiles/send_goal_loop.dir/all
 indicate_tag/all: indicate_tag/CMakeFiles/odom_path.dir/all
 indicate_tag/all: indicate_tag/CMakeFiles/send_goal.dir/all
 
 .PHONY : indicate_tag/all
 
 # Convenience name for "clean" pass in the directory.
+indicate_tag/clean: indicate_tag/CMakeFiles/send_goal_loop.dir/clean
 indicate_tag/clean: indicate_tag/CMakeFiles/odom_path.dir/clean
 indicate_tag/clean: indicate_tag/CMakeFiles/send_goal.dir/clean
 indicate_tag/clean: indicate_tag/CMakeFiles/actionlib_generate_messages_cpp.dir/clean
@@ -2951,6 +2953,43 @@ indicate_tag/clean: indicate_tag/CMakeFiles/move_base_msgs_generate_messages_eus
 indicate_tag/preinstall:
 
 .PHONY : indicate_tag/preinstall
+
+#=============================================================================
+# Target rules for target indicate_tag/CMakeFiles/send_goal_loop.dir
+
+# All Build rule for target.
+indicate_tag/CMakeFiles/send_goal_loop.dir/all:
+	$(MAKE) -f indicate_tag/CMakeFiles/send_goal_loop.dir/build.make indicate_tag/CMakeFiles/send_goal_loop.dir/depend
+	$(MAKE) -f indicate_tag/CMakeFiles/send_goal_loop.dir/build.make indicate_tag/CMakeFiles/send_goal_loop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=66 "Built target send_goal_loop"
+.PHONY : indicate_tag/CMakeFiles/send_goal_loop.dir/all
+
+# Include target in all.
+all: indicate_tag/CMakeFiles/send_goal_loop.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+indicate_tag/CMakeFiles/send_goal_loop.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 indicate_tag/CMakeFiles/send_goal_loop.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
+.PHONY : indicate_tag/CMakeFiles/send_goal_loop.dir/rule
+
+# Convenience name for target.
+send_goal_loop: indicate_tag/CMakeFiles/send_goal_loop.dir/rule
+
+.PHONY : send_goal_loop
+
+# clean rule for target.
+indicate_tag/CMakeFiles/send_goal_loop.dir/clean:
+	$(MAKE) -f indicate_tag/CMakeFiles/send_goal_loop.dir/build.make indicate_tag/CMakeFiles/send_goal_loop.dir/clean
+.PHONY : indicate_tag/CMakeFiles/send_goal_loop.dir/clean
+
+# clean rule for target.
+clean: indicate_tag/CMakeFiles/send_goal_loop.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target indicate_tag/CMakeFiles/odom_path.dir
@@ -2996,7 +3035,7 @@ clean: indicate_tag/CMakeFiles/odom_path.dir/clean
 indicate_tag/CMakeFiles/send_goal.dir/all:
 	$(MAKE) -f indicate_tag/CMakeFiles/send_goal.dir/build.make indicate_tag/CMakeFiles/send_goal.dir/depend
 	$(MAKE) -f indicate_tag/CMakeFiles/send_goal.dir/build.make indicate_tag/CMakeFiles/send_goal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target send_goal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=65 "Built target send_goal"
 .PHONY : indicate_tag/CMakeFiles/send_goal.dir/all
 
 # Include target in all.
@@ -3006,7 +3045,7 @@ all: indicate_tag/CMakeFiles/send_goal.dir/all
 
 # Build rule for subdir invocation for target.
 indicate_tag/CMakeFiles/send_goal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 indicate_tag/CMakeFiles/send_goal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : indicate_tag/CMakeFiles/send_goal.dir/rule
@@ -3473,7 +3512,7 @@ navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir
 
 # Build rule for subdir invocation for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/rule
@@ -3538,7 +3577,7 @@ navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml
 
 # Build rule for subdir invocation for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
@@ -3603,7 +3642,7 @@ navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving
 
 # Build rule for subdir invocation for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
@@ -3636,7 +3675,7 @@ navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loo
 
 # Build rule for subdir invocation for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
@@ -3701,7 +3740,7 @@ navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_basic_localization_stage
 
 # Build rule for subdir invocation for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/rule
@@ -3734,7 +3773,7 @@ navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed
 
 # Build rule for subdir invocation for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/rule
@@ -3863,7 +3902,7 @@ navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/a
 
 # Build rule for subdir invocation for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule
@@ -4708,7 +4747,7 @@ navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/all: navigation/amcl/CMak
 
 # Build rule for subdir invocation for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest.dir/rule
@@ -4906,7 +4945,7 @@ navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir
 
 # Build rule for subdir invocation for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/rule
@@ -5438,7 +5477,7 @@ navigation/amcl/CMakeFiles/_run_tests_amcl.dir/all: navigation/amcl/CMakeFiles/_
 
 # Build rule for subdir invocation for target.
 navigation/amcl/CMakeFiles/_run_tests_amcl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/amcl/CMakeFiles/_run_tests_amcl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/amcl/CMakeFiles/_run_tests_amcl.dir/rule
@@ -5556,7 +5595,7 @@ navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest_test_test
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest_test_test_robot_pose_ekf_zero_covariance.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest_test_test_robot_pose_ekf_zero_covariance.launch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest_test_test_robot_pose_ekf_zero_covariance.launch.dir/rule
@@ -5621,7 +5660,7 @@ navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest_test_test
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest_test_test_robot_pose_ekf.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest_test_test_robot_pose_ekf.launch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest_test_test_robot_pose_ekf.launch.dir/rule
@@ -5686,7 +5725,7 @@ navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf.dir/all: navigati
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf.dir/rule
@@ -5714,12 +5753,12 @@ navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/a
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/all: navigation/robot_pose_ekf/CMakeFiles/_robot_pose_ekf_generate_messages_check_deps_GetStatus.dir/all
 	$(MAKE) -f navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/build.make navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/depend
 	$(MAKE) -f navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/build.make navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target robot_pose_ekf_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=62 "Built target robot_pose_ekf_generate_messages_lisp"
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/rule
@@ -5783,7 +5822,7 @@ navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_geneus.dir/all: navigation/r
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_geneus.dir/rule
@@ -5848,7 +5887,7 @@ navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest.dir/all: 
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/_run_tests_robot_pose_ekf_rostest.dir/rule
@@ -5944,7 +5983,7 @@ navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_genlisp.dir/all: navigation/
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_genlisp.dir/rule
@@ -5985,7 +6024,7 @@ all: navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages.dir/a
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages.dir/rule
@@ -6013,12 +6052,12 @@ navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/al
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/all: navigation/robot_pose_ekf/CMakeFiles/_robot_pose_ekf_generate_messages_check_deps_GetStatus.dir/all
 	$(MAKE) -f navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/build.make navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/depend
 	$(MAKE) -f navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/build.make navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=62 "Built target robot_pose_ekf_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target robot_pose_ekf_generate_messages_eus"
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/rule
@@ -6163,7 +6202,7 @@ navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf.dir/all: navigation/robot_po
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf.dir/all: navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/all
 	$(MAKE) -f navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf.dir/build.make navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf.dir/depend
 	$(MAKE) -f navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf.dir/build.make navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=60,61 "Built target robot_pose_ekf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=60 "Built target robot_pose_ekf"
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf.dir/all
 
 # Include target in all.
@@ -6205,7 +6244,7 @@ navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_gencpp.dir/all: navigation/r
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_gencpp.dir/rule
@@ -6482,12 +6521,12 @@ navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/al
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/all: navigation/robot_pose_ekf/CMakeFiles/_robot_pose_ekf_generate_messages_check_deps_GetStatus.dir/all
 	$(MAKE) -f navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/build.make navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/depend
 	$(MAKE) -f navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/build.make navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target robot_pose_ekf_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=61 "Built target robot_pose_ekf_generate_messages_cpp"
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/rule
@@ -7232,10 +7271,10 @@ clean: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_mes
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: navigation/map_server/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: navigation/map_server/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Result.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Feedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionResult.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Action.dir/all
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Result.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionGoal.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionFeedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Goal.dir/all
@@ -7401,10 +7440,10 @@ clean: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_mes
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: navigation/map_server/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: navigation/map_server/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Result.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Feedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionResult.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Action.dir/all
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Result.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionGoal.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionFeedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Goal.dir/all
@@ -7474,10 +7513,10 @@ clean: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_mes
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: navigation/map_server/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: navigation/map_server/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Result.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Feedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionResult.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Action.dir/all
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Result.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionGoal.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionFeedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Goal.dir/all
@@ -7515,10 +7554,10 @@ clean: turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_mess
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: navigation/map_server/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: navigation/map_server/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Result.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Feedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionResult.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Action.dir/all
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Result.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionGoal.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionFeedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Goal.dir/all
@@ -7652,10 +7691,10 @@ clean: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_mes
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: navigation/map_server/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: navigation/map_server/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Result.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Feedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionResult.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Action.dir/all
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Result.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionGoal.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionFeedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Goal.dir/all
@@ -8484,7 +8523,7 @@ navigation/voxel_grid/CMakeFiles/voxel_grid_tests.dir/all: navigation/voxel_grid
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/voxel_grid_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/voxel_grid_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/voxel_grid_tests.dir/rule
@@ -8518,7 +8557,7 @@ navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid_gtest_voxel_grid_tests.di
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid_gtest_voxel_grid_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid_gtest_voxel_grid_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid_gtest_voxel_grid_tests.dir/rule
@@ -8550,7 +8589,7 @@ navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid.dir/all: navigation/voxel
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid.dir/rule
@@ -8582,7 +8621,7 @@ navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid.dir/all: navigation/voxel_
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid.dir/rule
@@ -8665,7 +8704,7 @@ navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest.dir/all: navigation/
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest.dir/rule
@@ -8697,7 +8736,7 @@ navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest_voxel_grid_tests.dir
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest_voxel_grid_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest_voxel_grid_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest_voxel_grid_tests.dir/rule
@@ -8729,7 +8768,7 @@ navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid_gtest.dir/all: navigation
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/_run_tests_voxel_grid_gtest.dir/rule
@@ -8888,7 +8927,7 @@ navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest_array_parser_test.d
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest_array_parser_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest_array_parser_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest_array_parser_test.dir/rule
@@ -8922,7 +8961,7 @@ navigation/costmap_2d/CMakeFiles/coordinates_test.dir/all: navigation/costmap_2d
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/coordinates_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/coordinates_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/coordinates_test.dir/rule
@@ -8954,7 +8993,7 @@ navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest_array_parser_test.di
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest_array_parser_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest_array_parser_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest_array_parser_test.dir/rule
@@ -8987,7 +9026,7 @@ navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest.dir/all: navigation
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest.dir/rule
@@ -9020,7 +9059,7 @@ navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest.dir/all: navigation/
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest.dir/rule
@@ -9054,7 +9093,7 @@ navigation/costmap_2d/CMakeFiles/array_parser_test.dir/all: navigation/costmap_2
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/array_parser_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/array_parser_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/array_parser_test.dir/rule
@@ -9087,7 +9126,7 @@ navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_static_tests
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_static_tests.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_static_tests.launch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_static_tests.launch.dir/rule
@@ -9119,7 +9158,7 @@ navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest_coordinates_test.dir
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest_coordinates_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest_coordinates_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest_coordinates_test.dir/rule
@@ -9251,7 +9290,7 @@ navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest.dir/all: navigati
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest.dir/rule
@@ -9352,7 +9391,7 @@ navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d.dir/all: navigation/costm
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d.dir/rule
@@ -9385,7 +9424,7 @@ navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_obstacle_tes
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_obstacle_tests.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_obstacle_tests.launch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_obstacle_tests.launch.dir/rule
@@ -9783,7 +9822,7 @@ navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest_coordinates_test.di
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest_coordinates_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest_coordinates_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_gtest_coordinates_test.dir/rule
@@ -9912,7 +9951,7 @@ navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_footprint_te
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_footprint_tests.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_footprint_tests.launch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_footprint_tests.launch.dir/rule
@@ -10155,7 +10194,7 @@ navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_simple_drivi
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_simple_driving_test.xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_simple_driving_test.xml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_simple_driving_test.xml.dir/rule
@@ -10519,12 +10558,12 @@ navigation/costmap_2d/CMakeFiles/static_tests.dir/all: navigation/costmap_2d/CMa
 navigation/costmap_2d/CMakeFiles/static_tests.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/static_tests.dir/build.make navigation/costmap_2d/CMakeFiles/static_tests.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/static_tests.dir/build.make navigation/costmap_2d/CMakeFiles/static_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=66 "Built target static_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target static_tests"
 .PHONY : navigation/costmap_2d/CMakeFiles/static_tests.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/static_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/static_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/static_tests.dir/rule
@@ -10589,7 +10628,7 @@ navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d.dir/all: navigation/costma
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/run_tests_costmap_2d.dir/rule
@@ -10944,12 +10983,12 @@ navigation/costmap_2d/CMakeFiles/footprint_tests.dir/all: navigation/voxel_grid/
 navigation/costmap_2d/CMakeFiles/footprint_tests.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/footprint_tests.dir/build.make navigation/costmap_2d/CMakeFiles/footprint_tests.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/footprint_tests.dir/build.make navigation/costmap_2d/CMakeFiles/footprint_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=35 "Built target footprint_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target footprint_tests"
 .PHONY : navigation/costmap_2d/CMakeFiles/footprint_tests.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/footprint_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/footprint_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/footprint_tests.dir/rule
@@ -10982,7 +11021,7 @@ navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_inflation_te
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_inflation_tests.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_inflation_tests.launch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/_run_tests_costmap_2d_rostest_test_inflation_tests.launch.dir/rule
@@ -11615,7 +11654,7 @@ navigation/costmap_2d/CMakeFiles/costmap_tester.dir/all: navigation/costmap_2d/C
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_tester.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_tester.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_tester.dir/rule
@@ -11645,7 +11684,7 @@ navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/all: navigation/costmap_2d/C
 navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/build.make navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/build.make navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target obstacle_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=56 "Built target obstacle_tests"
 .PHONY : navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -11685,7 +11724,7 @@ navigation/costmap_2d/CMakeFiles/inflation_tests.dir/all: navigation/costmap_2d/
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/inflation_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/inflation_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/inflation_tests.dir/rule
@@ -11783,7 +11822,7 @@ navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_iterator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_iterator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_iterator.dir/rule
@@ -11810,12 +11849,12 @@ clean: navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gte
 navigation/base_local_planner/CMakeFiles/line_iterator.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/line_iterator.dir/build.make navigation/base_local_planner/CMakeFiles/line_iterator.dir/depend
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/line_iterator.dir/build.make navigation/base_local_planner/CMakeFiles/line_iterator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=45 "Built target line_iterator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target line_iterator"
 .PHONY : navigation/base_local_planner/CMakeFiles/line_iterator.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/line_iterator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/line_iterator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/line_iterator.dir/rule
@@ -11881,7 +11920,7 @@ navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest_bas
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest_base_local_planner_utest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest_base_local_planner_utest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest_base_local_planner_utest.dir/rule
@@ -12049,7 +12088,7 @@ navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/base_loc
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/all
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/point_grid.dir/build.make navigation/base_local_planner/CMakeFiles/point_grid.dir/depend
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/point_grid.dir/build.make navigation/base_local_planner/CMakeFiles/point_grid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target point_grid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=59 "Built target point_grid"
 .PHONY : navigation/base_local_planner/CMakeFiles/point_grid.dir/all
 
 # Include target in all.
@@ -12059,7 +12098,7 @@ all: navigation/base_local_planner/CMakeFiles/point_grid.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/point_grid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/point_grid.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/point_grid.dir/rule
@@ -12123,7 +12162,7 @@ navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/all: n
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/rule
@@ -12389,7 +12428,7 @@ navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest.dir
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest.dir/rule
@@ -12454,7 +12493,7 @@ navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/rule
@@ -12488,7 +12527,7 @@ navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest_lin
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest_line_iterator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest_line_iterator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner_gtest_line_iterator.dir/rule
@@ -12754,7 +12793,7 @@ navigation/base_local_planner/CMakeFiles/base_local_planner_utest.dir/all: navig
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/base_local_planner_utest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/base_local_planner_utest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_utest.dir/rule
@@ -12850,7 +12889,7 @@ navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_base
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_base_local_planner_utest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_base_local_planner_utest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_base_local_planner_utest.dir/rule
@@ -12882,7 +12921,7 @@ navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner.dir/all: 
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/_run_tests_base_local_planner.dir/rule
@@ -13104,7 +13143,7 @@ navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery.d
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery.dir/rule
@@ -13136,7 +13175,7 @@ navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery.di
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery.dir/rule
@@ -13172,7 +13211,7 @@ navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/all: navigation/cl
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/rule
@@ -13206,7 +13245,7 @@ navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery_r
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir/rule
@@ -13238,7 +13277,7 @@ navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery_r
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery_rostest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery_rostest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/_run_tests_clear_costmap_recovery_rostest.dir/rule
@@ -13409,7 +13448,7 @@ navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_ro
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest.dir/rule
@@ -13473,7 +13512,7 @@ navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_ro
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir/rule
@@ -13901,7 +13940,7 @@ navigation/navfn/CMakeFiles/navfn_node.dir/all: navigation/costmap_2d/CMakeFiles
 navigation/navfn/CMakeFiles/navfn_node.dir/all: navigation/navfn/CMakeFiles/navfn.dir/all
 	$(MAKE) -f navigation/navfn/CMakeFiles/navfn_node.dir/build.make navigation/navfn/CMakeFiles/navfn_node.dir/depend
 	$(MAKE) -f navigation/navfn/CMakeFiles/navfn_node.dir/build.make navigation/navfn/CMakeFiles/navfn_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=56 "Built target navfn_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target navfn_node"
 .PHONY : navigation/navfn/CMakeFiles/navfn_node.dir/all
 
 # Include target in all.
@@ -13911,7 +13950,7 @@ all: navigation/navfn/CMakeFiles/navfn_node.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/navfn/CMakeFiles/navfn_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/CMakeFiles/navfn_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/CMakeFiles/navfn_node.dir/rule
@@ -14051,7 +14090,7 @@ all: navigation/navfn/CMakeFiles/navfn.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/navfn/CMakeFiles/navfn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/CMakeFiles/navfn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/CMakeFiles/navfn.dir/rule
@@ -14178,12 +14217,12 @@ navigation/navfn/CMakeFiles/navfn_generate_messages_cpp.dir/all: navigation/navf
 navigation/navfn/CMakeFiles/navfn_generate_messages_cpp.dir/all: navigation/navfn/CMakeFiles/_navfn_generate_messages_check_deps_SetCostmap.dir/all
 	$(MAKE) -f navigation/navfn/CMakeFiles/navfn_generate_messages_cpp.dir/build.make navigation/navfn/CMakeFiles/navfn_generate_messages_cpp.dir/depend
 	$(MAKE) -f navigation/navfn/CMakeFiles/navfn_generate_messages_cpp.dir/build.make navigation/navfn/CMakeFiles/navfn_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=52 "Built target navfn_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target navfn_generate_messages_cpp"
 .PHONY : navigation/navfn/CMakeFiles/navfn_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/navfn/CMakeFiles/navfn_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/CMakeFiles/navfn_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/CMakeFiles/navfn_generate_messages_cpp.dir/rule
@@ -14317,7 +14356,7 @@ navigation/navfn/CMakeFiles/navfn_generate_messages_eus.dir/all: navigation/navf
 navigation/navfn/CMakeFiles/navfn_generate_messages_eus.dir/all: navigation/navfn/CMakeFiles/_navfn_generate_messages_check_deps_SetCostmap.dir/all
 	$(MAKE) -f navigation/navfn/CMakeFiles/navfn_generate_messages_eus.dir/build.make navigation/navfn/CMakeFiles/navfn_generate_messages_eus.dir/depend
 	$(MAKE) -f navigation/navfn/CMakeFiles/navfn_generate_messages_eus.dir/build.make navigation/navfn/CMakeFiles/navfn_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=53 "Built target navfn_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=52 "Built target navfn_generate_messages_eus"
 .PHONY : navigation/navfn/CMakeFiles/navfn_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -14354,7 +14393,7 @@ navigation/navfn/CMakeFiles/navfn_gencpp.dir/all: navigation/navfn/CMakeFiles/na
 
 # Build rule for subdir invocation for target.
 navigation/navfn/CMakeFiles/navfn_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/CMakeFiles/navfn_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/CMakeFiles/navfn_gencpp.dir/rule
@@ -14418,7 +14457,7 @@ navigation/navfn/CMakeFiles/navfn_genlisp.dir/all: navigation/navfn/CMakeFiles/n
 
 # Build rule for subdir invocation for target.
 navigation/navfn/CMakeFiles/navfn_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/CMakeFiles/navfn_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/CMakeFiles/navfn_genlisp.dir/rule
@@ -14447,12 +14486,12 @@ navigation/navfn/CMakeFiles/navfn_generate_messages_lisp.dir/all: navigation/nav
 navigation/navfn/CMakeFiles/navfn_generate_messages_lisp.dir/all: navigation/navfn/CMakeFiles/_navfn_generate_messages_check_deps_SetCostmap.dir/all
 	$(MAKE) -f navigation/navfn/CMakeFiles/navfn_generate_messages_lisp.dir/build.make navigation/navfn/CMakeFiles/navfn_generate_messages_lisp.dir/depend
 	$(MAKE) -f navigation/navfn/CMakeFiles/navfn_generate_messages_lisp.dir/build.make navigation/navfn/CMakeFiles/navfn_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target navfn_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=53 "Built target navfn_generate_messages_lisp"
 .PHONY : navigation/navfn/CMakeFiles/navfn_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/navfn/CMakeFiles/navfn_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/CMakeFiles/navfn_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/CMakeFiles/navfn_generate_messages_lisp.dir/rule
@@ -14543,7 +14582,7 @@ navigation/navfn/test/CMakeFiles/_run_tests_navfn.dir/all: navigation/navfn/test
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/_run_tests_navfn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/_run_tests_navfn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/_run_tests_navfn.dir/rule
@@ -14575,7 +14614,7 @@ navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/all: navigation/navfn/test/
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/rule
@@ -14611,7 +14650,7 @@ navigation/navfn/test/CMakeFiles/path_calc_test.dir/all: navigation/navfn/CMakeF
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/path_calc_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/path_calc_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/path_calc_test.dir/rule
@@ -14643,7 +14682,7 @@ navigation/navfn/test/CMakeFiles/_run_tests_navfn_gtest.dir/all: navigation/navf
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/_run_tests_navfn_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/_run_tests_navfn_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/_run_tests_navfn_gtest.dir/rule
@@ -14675,7 +14714,7 @@ navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/all: n
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/rule
@@ -14709,7 +14748,7 @@ navigation/navfn/test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/all: 
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/rule
@@ -14773,7 +14812,7 @@ navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest.dir/all: navigation/navfn
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest.dir/rule
@@ -14822,7 +14861,7 @@ navigation/global_planner/preinstall:
 navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/all:
 	$(MAKE) -f navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/build.make navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/depend
 	$(MAKE) -f navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/build.make navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=38 "Built target global_planner_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target global_planner_gencfg"
 .PHONY : navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/all
 
 # Include target in all.
@@ -14832,7 +14871,7 @@ all: navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/rule
@@ -14968,7 +15007,7 @@ navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/navfn/CM
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/all
 	$(MAKE) -f navigation/global_planner/CMakeFiles/global_planner.dir/build.make navigation/global_planner/CMakeFiles/global_planner.dir/depend
 	$(MAKE) -f navigation/global_planner/CMakeFiles/global_planner.dir/build.make navigation/global_planner/CMakeFiles/global_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=36,37 "Built target global_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=35,36,37 "Built target global_planner"
 .PHONY : navigation/global_planner/CMakeFiles/global_planner.dir/all
 
 # Include target in all.
@@ -15115,7 +15154,7 @@ navigation/global_planner/CMakeFiles/planner.dir/all: navigation/global_planner/
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation/global_planner/CMakeFiles/global_planner.dir/all
 	$(MAKE) -f navigation/global_planner/CMakeFiles/planner.dir/build.make navigation/global_planner/CMakeFiles/planner.dir/depend
 	$(MAKE) -f navigation/global_planner/CMakeFiles/planner.dir/build.make navigation/global_planner/CMakeFiles/planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=59 "Built target planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target planner"
 .PHONY : navigation/global_planner/CMakeFiles/planner.dir/all
 
 # Include target in all.
@@ -15125,7 +15164,7 @@ all: navigation/global_planner/CMakeFiles/planner.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/global_planner/CMakeFiles/planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/global_planner/CMakeFiles/planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/global_planner/CMakeFiles/planner.dir/rule
@@ -15279,7 +15318,7 @@ navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/base_l
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/base_local_planner/CMakeFiles/base_local_planner.dir/all
 	$(MAKE) -f navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/build.make navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/depend
 	$(MAKE) -f navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/build.make navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=64 "Built target rotate_recovery"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target rotate_recovery"
 .PHONY : navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all
 
 # Include target in all.
@@ -15289,7 +15328,7 @@ all: navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/rule
@@ -15338,7 +15377,7 @@ navigation/move_base/preinstall:
 navigation/move_base/CMakeFiles/move_base_gencfg.dir/all:
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_gencfg.dir/build.make navigation/move_base/CMakeFiles/move_base_gencfg.dir/depend
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_gencfg.dir/build.make navigation/move_base/CMakeFiles/move_base_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=49 "Built target move_base_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target move_base_gencfg"
 .PHONY : navigation/move_base/CMakeFiles/move_base_gencfg.dir/all
 
 # Include target in all.
@@ -15348,7 +15387,7 @@ all: navigation/move_base/CMakeFiles/move_base_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/move_base/CMakeFiles/move_base_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/move_base/CMakeFiles/move_base_gencfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/move_base/CMakeFiles/move_base_gencfg.dir/rule
@@ -15499,7 +15538,7 @@ navigation/move_base/CMakeFiles/move_base.dir/all: navigation/rotate_recovery/CM
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation/move_base/CMakeFiles/move_base_gencfg.dir/all
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base.dir/build.make navigation/move_base/CMakeFiles/move_base.dir/depend
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base.dir/build.make navigation/move_base/CMakeFiles/move_base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target move_base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=48 "Built target move_base"
 .PHONY : navigation/move_base/CMakeFiles/move_base.dir/all
 
 # Include target in all.
@@ -15509,7 +15548,7 @@ all: navigation/move_base/CMakeFiles/move_base.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/move_base/CMakeFiles/move_base.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/move_base/CMakeFiles/move_base.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincy/vin_ws/build/CMakeFiles 0
 .PHONY : navigation/move_base/CMakeFiles/move_base.dir/rule
@@ -15661,7 +15700,7 @@ navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/move_base/CMa
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/move_base/CMakeFiles/move_base.dir/all
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_node.dir/build.make navigation/move_base/CMakeFiles/move_base_node.dir/depend
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_node.dir/build.make navigation/move_base/CMakeFiles/move_base_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num= "Built target move_base_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincy/vin_ws/build/CMakeFiles --progress-num=49 "Built target move_base_node"
 .PHONY : navigation/move_base/CMakeFiles/move_base_node.dir/all
 
 # Include target in all.

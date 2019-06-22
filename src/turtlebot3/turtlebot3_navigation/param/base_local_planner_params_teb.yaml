@@ -14,8 +14,8 @@ TebLocalPlannerROS:
     
  # Robot
          
- max_vel_x: 0.18
- max_vel_x_backwards: 0.18
+ max_vel_x: 0.16
+ max_vel_x_backwards: 0.16
  max_vel_theta: 0.13
  acc_lim_x: 1.0
  acc_lim_theta: 0.43
@@ -34,20 +34,20 @@ TebLocalPlannerROS:
  # GoalTolerance
     
  xy_goal_tolerance: 0.05
- yaw_goal_tolerance: 0.17
+ yaw_goal_tolerance: 0.12
  free_goal_vel: False
     
  # Obstacles
     
- min_obstacle_dist: 0.2
+ min_obstacle_dist: 0.18
  include_costmap_obstacles: True
  costmap_obstacles_behind_robot_dist: 1.0
  obstacle_poses_affected: 30
  costmap_converter_plugin: ""
  costmap_converter_spin_thread: True
  costmap_converter_rate: 5
- inflation_dist: 0.3
- dynamic_obstacle_inflation_dist: 0.3
+ inflation_dist: 0.23
+ dynamic_obstacle_inflation_dist: 0.23
 
  # Optimization
     
