@@ -7,6 +7,7 @@
 
   <!-- move_base (teb) -->
    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <!-- Load all costmap_2d and planner parameters here -->
     <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
     <rosparam file="$(find turtlebot3_navigation)/param/costmap_common_params_$(arg model).yaml" command="load" ns="global_costmap" />
     <rosparam file="$(find turtlebot3_navigation)/param/costmap_common_params_$(arg model).yaml" command="load" ns="local_costmap" />
@@ -16,6 +17,10 @@
     <rosparam file="$(find turtlebot3_navigation)/param/move_base_params.yaml" command="load" />
 
     <param name="controller_frequency" value="10.0" />
+
+    <!-- LOAD COSTMAP_CONVERTER PARAMETERS HERE -->
+    <rosparam file="$(find turtlebot3_navigation)/param/costmap_converter_params.yaml" command="load" />
+
 
     <!-- <rosparam file="$(find turtlebot3_navigation)/param/teb_local_planner_params_$(arg model).yaml" command="load" /> -->
 
