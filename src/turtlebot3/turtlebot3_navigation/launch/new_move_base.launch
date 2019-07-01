@@ -15,24 +15,14 @@
     <rosparam file="$(find turtlebot3_navigation)/param/global_costmap_params.yaml" command="load" />
     <rosparam file="$(find turtlebot3_navigation)/param/base_local_planner_params_teb.yaml" command="load" />
     <rosparam file="$(find turtlebot3_navigation)/param/move_base_params.yaml" command="load" />
-
-    <param name="controller_frequency" value="10.0" />
-
-    <!-- LOAD COSTMAP_CONVERTER PARAMETERS HERE -->
-    <rosparam file="$(find turtlebot3_navigation)/param/costmap_converter_params.yaml" command="load" />
-
-
-    <!-- <rosparam file="$(find turtlebot3_navigation)/param/teb_local_planner_params_$(arg model).yaml" command="load" /> -->
-
     <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>
     <remap from="odom" to="$(arg odom_topic)"/>
 
+    <!-- Load costmap_converter parameters here -->
+    <rosparam file="$(find turtlebot3_navigation)/param/costmap_converter_params.yaml" command="load" />
    </node> 
 
-  <!-- odom_path -->
+  <!-- Display odom_path -->
    <node pkg="indicate_tag" type="odom_path" name="odom_path" output="screen"/> 
 
-
 </launch>
-
-
