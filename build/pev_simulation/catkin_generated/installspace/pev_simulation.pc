@@ -1,0 +1,8 @@
+prefix=/home/vincy/vin_ws/install
+
+Name: pev_simulation
+Description: Description of pev_simulation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vincy/vin_ws/install/lib 
+Requires: 

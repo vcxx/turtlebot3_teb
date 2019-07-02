@@ -1,0 +1,65 @@
+<robot name="test_pev">
+  <!-- colors -->
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <!-- links -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.36"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <link name="base_footprint" />
+  <link name="steer_base" />
+  <link name="steer_link" />
+  <link name="left_wheel" />
+  <link name="right_wheel" />  
+  <link name="handle" />  
+
+  <!-- joints -->
+  <joint name="baselink_to_basefootprint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_footprint"/>
+    <origin xyz="0 0 0.36" rpy="0 0 0" />
+  </joint>
+
+  <joint name="baselink_to_steerbase" type="fixed">
+    <parent link="base_link"/>
+    <child link="steer_base"/>
+    <origin xyz="0 1.2 0" rpy="0 0 0" />
+  </joint>
+
+  <joint name="steerbase_to_hadle" type="fixed">
+    <parent link="steer_base"/>
+    <child link="handle"/>
+    <origin xyz="0 1.2 0" rpy="0 0 0" />
+  </joint>  
+
+  <joint name="steerbase_to_steerlink" type="fixed">
+    <parent link="steer_base"/>
+    <child link="steer_link"/>
+    <origin xyz="0 0.1 0" rpy="0 0 0" />
+  </joint>
+
+  <joint name="steerlink_to_leftwheel" type="fixed">
+    <parent link="steer_link"/>
+    <child link="left_wheel"/>
+    <origin xyz="-0.55 0 0" rpy="0 0 0" />
+  </joint>
+
+  <joint name="steerlink_to_rightwheel" type="fixed">
+    <parent link="steer_link"/>
+    <child link="right_wheel"/>
+    <origin xyz="0.55 0 0" rpy="0 0 0" />
+  </joint>
+</robot>
